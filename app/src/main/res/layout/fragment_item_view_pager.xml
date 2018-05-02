@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp"
+    app:cardUseCompatPadding="true">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="24dp">
+
+            <ImageView
+                android:id="@+id/image_icon_weather"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="8dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/text_view_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_below="@id/image_icon_weather"
+                android:layout_centerHorizontal="true"
+                tool:text="Sunny"
+                tool:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/text_view_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_below="@id/text_view_weather"
+                android:layout_centerHorizontal="true"
+                tool:text="23 / 43C"
+                />
+            <TextView
+                android:id="@+id/text_view_day_and_night"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_below="@id/text_view_temperature"
+                android:layout_alignParentRight="true"
+                tool:text="day / night"
+                tool:textSize="20sp"
+                />
+        </RelativeLayout>
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>

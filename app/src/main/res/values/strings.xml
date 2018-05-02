@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WeatherTest</string>
+    <string name="string_buttom_fb_connect">FB Connect</string>
+
+
+    <string name="facebook_app_id">2096409247256196</string>
+    <string name="fb_login_protocol_scheme">fb2096409247256196</string>
+    <string name="string_text_hint_search_city">Weather for city</string>
+    <string name="string_button_find">Find</string>
+    <string name="string_city_not_found">City not found</string>
+
+    <string name="string_main_screen_title_1">welcom to </string>
+    <string name="string_main_screen_title_2">WEATHER NOTE </string>
+    <string name="string_main_screen_title_3">Explore intresting /n for you temes</string>
+
+    <string name="string_history_menu_history">History</string>
+
+    <string name="string_progres_dialog_wait">Wait. City search</string>
+
+    <string name="string_day">Day</string>
+    <string name="string_night">Night</string>
+</resources>
